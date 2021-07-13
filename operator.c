@@ -16,16 +16,16 @@ int main()
     }
     if( a && b )
     {
-       printf("bye from danfoss\n"); 
+       printf("bye from danfoss\n");  //op:bye from danfoss; 
     }
     if( a ^ b )
     {
-     printf("a ^ b = %d\n",a^b);   
+     printf("a ^ b = %d\n",a^b);   //op:15
     }
     if( a || (++b) )
     {
-        printf("a=%d\n",a);
-        printf("b=%d",b);
+        printf("a=%d\n",a); //op:6
+        printf("b=%d",b);//op:9
     }
     return 0;
 }
